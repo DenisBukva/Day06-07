@@ -1,5 +1,69 @@
-a:hover {
-color:red;
-height:800px;
-weight:600px;
+.holdingcontainer{
+    width: 100%;
+    display: flex;
+     box-sizing: border-box;
+    justify-content: center;
+    flex-direction: row;
+    
+}   
+    
+
+.internalcontainer1{
+    flex:1;
+    padding:20px;
+    font-size: 12px;
+    justify-content: center;
+    margin:5px;
+}    
+    
+
+.internalcontainer2{
+    flex:1;
+    padding:20px;
+    font-size:12px;
+    justify-content: center;
+    margin:5px;
+    
 }
+.internalcontainer3{
+    flex:1;
+    padding:20px;
+    font-size:12px;
+    justify-content: center;
+    margin:5px;
+    
+}
+img{
+    width: 400px;
+    height: 350px;
+    margin-bottom: 20px;
+    
+}
+a:hover{
+    transition: 0.5s;
+    background-color: red;
+}    
+
+
+.naslov{
+    text-align: center;
+    color:red;
+    font-size: 30px;
+}    
+
+
+.pprvi{
+    color:cyan;
+    font-size:15px;
+    
+}
+ p{
+     width: 400px;
+     text-align:justify;
+     text-justify: inter-word;
+     font-size:15px;
+}
+
+
+ 
+
